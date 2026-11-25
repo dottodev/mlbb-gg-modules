@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "enabled": true,
+  "min_loader": 1,
+  "builds": {
+    "1211812351": {
+      "versionName": "",
+      "arch": "arm64",
+      "module": "libcsharp.so",
+      "profile": "profiles/1211812351.json"
+    }
+  },
+  "modules": [
+    {
+      "name": "util",
+      "file": "modules/util.lua",
+      "version": "0.1.0",
+      "size": 16487,
+      "sum": "09a82477",
+      "sha256": "ffacf456924574776aba37f2f281451fb24355f30bbe8f39b880231424daa25a"
+    },
+    {
+      "name": "drone",
+      "file": "modules/drone.lua",
+      "version": "0.1.0",
+      "size": 277,
+      "sum": "00250d17",
+      "sha256": "d8401eb8c7c591e829707cf9fbdcb9a8af1e717fec7cce19fabcf55ea9d52470"
+    },
+    {
+      "name": "map",
+      "file": "modules/map.lua",
+      "version": "0.1.0",
+      "size": 238,
+      "sum": "00240278",
+      "sha256": "fb94d6c21d1a087018f36227067fb162f1373ed2b542b36d01a60acc5fe6e7a5"
+    },
+    {
+      "name": "aim",
+      "file": "modules/aim.lua",
+      "version": "0.1.0",
+      "size": 232,
+      "sum": "001dbce7",
+      "sha256": "a158dfe7634fb51b9844e77aad1ec8700de7884c00e9ddcade06135e96d9d010"
+    },
+    {
+      "name": "damage_phy",
+      "file": "modules/damage_phy.lua",
+      "version": "0.1.0",
+      "size": 344,
+      "sum": "002d20a2",
+      "sha256": "8e8d130554e9100a083e94be24330bfefd31a9d0323e16c514a2991dea25718d"
+    },
+    {
+      "name": "damage_mag",
+      "file": "modules/damage_mag.lua",
+      "version": "0.1.0",
+      "size": 334,
+      "sum": "002a6735",
+      "sha256": "296e3489a744b92ff6986a0d7f5826941b8492c535b62d55d77c865a69249f6e"
+    },
+    {
+      "name": "stealth",
+      "file": "modules/stealth.lua",
+      "version": "0.1.0",
+      "size": 658,
+      "sum": "0061d987",
+      "sha256": "0da7d2c79654c597d288367f608f206afaa50e8948827f88d6f6a1cf081b6597"
+    }
+  ]
+}

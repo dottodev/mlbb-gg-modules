@@ -1,0 +1,44 @@
+{
+  "build": "1211812351",
+  "verified": false,
+  "notes": "Placeholder profile. Every feature stays LOCKED until an address is verified on-device with tools/discover.lua. Do not fill these with guesses.",
+  "features": {
+    "drone": {
+      "ready": false,
+      "address": null,
+      "flags": "float",
+      "base": null,
+      "note": "Camera distance/height float. Calibrate by changing the in-game camera setting and diffing."
+    },
+    "map": {
+      "ready": false,
+      "address": null,
+      "flags": "byte",
+      "onValue": null,
+      "note": "Per-unit visibility flag that drives the minimap icon. Diff a hidden vs visible enemy."
+    },
+    "aim": {
+      "ready": false,
+      "address": null,
+      "flags": "dword",
+      "base": null,
+      "note": "Local hero lock-on distance. LogicFighter dump offset 0x4A0 is a lead, not a verified address."
+    },
+    "damage_phy": {
+      "ready": false,
+      "address": null,
+      "flags": "float",
+      "base": null,
+      "calibrated": false,
+      "note": "Live physical attack stat. Locked until damage numbers and enemy HP both move."
+    },
+    "damage_mag": {
+      "ready": false,
+      "address": null,
+      "flags": "float",
+      "base": null,
+      "calibrated": false,
+      "note": "Live magic power stat. Same calibration gate as physical."
+    }
+  }
+}
